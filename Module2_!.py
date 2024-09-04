@@ -1,0 +1,42 @@
+# The print() function
+print("Hello, World!")
+print("-------------------------------------------------")
+
+print("The print() function - instructions\n")
+print("The itsy bitsy spider climbed up the waterspout.")
+print("Down came the rain and washed the spider out.")
+print("-------------------------------------------------")
+
+print("The print() function - empty line or next line\n")
+print("The itsy bitsy spider climbed up the waterspout.")
+print()
+print("Down came the rain and washed the spider out.")
+print("-------------------------------------------------")
+
+print("The print() function - the escape and newline characters\n")
+print("The itsy bitsy spider\nclimbed up the waterspout.")
+print()
+print("Down came the rain\nand washed the spider out.")
+print("-------------------------------------------------")
+
+print("The print() function - using multiple arguments\n")
+print("The itsy bitsy spider" , "climbed up" , "the waterspout.")
+print("-------------------------------------------------")
+
+print("The print() function - the positional way of passing the arguments")
+print("My name is", "Python.")
+print("Monty Python.")
+print("-------------------------------------------------")
+
+print("The print() function - the keyword arguments")
+print("My name is", "Python.", end=" ")
+print("Monty Python.")
+print("\nend argument has been set to nothing\n")
+print("My name is ", end="")
+print("Monty Python.")
+print("\nsep argument has been set to '-'\n")
+print("My", "name", "is", "Monty", "Python.", sep="-")
+print("\nBoth keyword arguments mixed in one invocation\n")
+print("My", "name", "is", sep="_", end="*")
+print("Monty", "Python.", sep="*", end="*\n")
+print("-------------------------------------------------")
